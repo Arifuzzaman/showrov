@@ -1,0 +1,272 @@
+
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Centro Servizi Nazionale</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light fixed-top"  style="background-color: #ffffff;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+			<img src="img/logo_csn.png" height="30" alt="">
+		</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="chisiamo.html">Chi siamo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servizi.html">Servizi</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contatti.html">Contatti</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="login.html">Area Riservata</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="https://www.cafcsn.it/servizi.html?categoria=24">বাংলা কাফ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- Page Content -->
+
+    <div class="container">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+				  <a href="index.html">Home</a>
+				</li>
+				<li class="breadcrumb-item active">Centro Servizi Nazionale</li>
+			 </ol>
+		<div class="row">
+			<div class="col-md-6">
+					<form name="login" action="login.html" method="POST">
+						<div class="col-lg-12">
+						<h2>Accedi</h2>
+						<hr>
+							<label>Nome Utente</label>
+								<input type="text" class="form-control" placeholder="Nome Utente" id="user" name="user" required data-validation-required-message="Inserisci il tuo nome utente.">
+							<label>Password</label>
+								<input type="password" class="form-control" placeholder="Password" id="pass" name="pass" required data-validation-required-message="Inserisci la password.">
+						<hr>
+							<button type="submit" class="btn btn-primary btn-lg">Accedi</button>
+						</div>
+					</form>
+			</div>
+			<div class="col-md-6">
+					<!-- registrazione -->
+					<h2>Registrazione</h2>
+						<hr>
+
+				<form action="upload_reg.html?aggiungi=8" method="post" enctype="multipart/form-data">
+					<div class="panel panel-default">
+
+					  <table class="table">
+
+						
+						<tr>
+
+							<th>Nome</th><td><input type="text" id="nome" name="nome" required class="form-control"></td>
+
+						</tr> 
+						<tr>
+
+							<th>Cognome</th><td><input type="text" id="cognome" name="cognome" required class="form-control"></td>
+
+						</tr>
+
+						<tr>
+
+							<th>Indirizzo</th><td><input type="text" id="indirizzo" name="indirizzo" class="form-control"></td>
+
+						</tr> 
+
+						<tr>
+
+							<th>Civico</th><td><input type="text" id="civico" name="civico" class="form-control"></td>
+
+						</tr>
+
+						<tr>
+
+							<th>CAP</th><td><input type="number" id="cap" name="cap" required class="form-control"></td>
+
+						</tr> 
+
+						<tr>
+
+							<th>Città</th><td><input type="text" id="citta" name="citta" class="form-control"></td>
+
+						</tr> 
+
+						<tr>
+
+							<th>Provincia</th><td><input type="text" id="prov" name="prov" class="form-control"></td>
+
+						</tr> 
+
+						<tr>
+
+							<th>Codice Fiscale</th><td><input type="text" id="cfiscale" name="cfiscale" required class="form-control"></td>
+
+						</tr> 
+
+						<tr>
+
+							<th>Telefono</th><td><input type="text" id="tel" name="tel" class="form-control"></td>
+
+						</tr> 
+
+						<tr>
+
+							<th>Fax</th><td><input type="text" id="fax" name="fax" class="form-control"></td>
+
+						</tr> 
+
+						<tr>
+
+							<th>Email</th><td><input type="text" id="email" name="email" required class="form-control"></td>
+
+						</tr> 
+
+						<tr>
+
+							<th>Cellulare</th><td><input type="text" id="contatto1" name="contatto1" class="form-control"></td>
+
+						</tr>
+
+						<tr>
+
+							<th>Password</th><td><input type="text" id="password" name="password" required class="form-control"></td>
+
+						</tr>
+
+						<tr>
+
+							<th></th><td> <input type="submit" class="btn btn-success" value="Invia registrazione"></td>
+
+						</tr>
+
+						</table>
+
+					</div>
+
+				</form>
+			</div>
+			
+			<div class="col-md-6">
+					<form name="login" action="recupero_password.html" method="POST">
+						<div class="col-lg-12">
+						<h2>Recupero Password</h2>
+						<hr>
+							<label>Codice Fiscale</label>
+								<input type="text" class="form-control" placeholder="Codice Fiscale" id="user" name="user" required data-validation-required-message="Inserisci il tuo Codice Fiscale.">
+						<hr>
+							<button type="submit" class="btn btn-primary btn-lg">Recupera</button>
+						</div>
+					</form>
+			</div>
+		</div>	
+    </div>
+
+    <!-- /.container -->
+
+<br><br>
+
+      <!-- Footer -->
+	<div class="container">
+    <section style="height:80px;"></section>
+	<div class="row" style="text-align:center;">
+	
+	</div>
+	<hr>
+    <!----------- Footer ------------>
+    <footer class="footer-bs">
+        <div class="row">
+        	<div class="col-md-3 footer-brand animated fadeInLeft">
+            	<h4>Centro Servizi Nazionale</h4>
+                <p>Siamo un gruppo nato per offrire ai cittadini e alle aziende una serie di servizi completi in ambito amministrativo e contributivo, garantendo una risposta concreta ed affidabile alle richieste che spaziano dall'assistenza fiscale alla contabilità.</p>
+            </div>
+        	<div class="col-md-4 footer-nav animated fadeInUp">
+            	<h4>Menu —</h4>
+            	<div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="chisiamo.html">Chi siamo</a></li>
+                        <li><a href="servizi.html">Servizi</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contatti.phh">Contatti</a></li>
+                    </ul>
+                </div>
+            	<div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="filiale.html">Apri una filiale</a></li>
+                        <li><a href="collaboratori.html">Collaboratori</a></li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4>Seguici su</h4>
+            	<ul>
+                	<li><a href="https://www.facebook.com/csncorner/">Facebook</a></li>
+                	<li><a href="https://plus.google.com/u/0/103381208034844770009">Google+</a></li>
+                	<li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        	<div class="col-md-3 footer-ns animated fadeInRight">
+            	<h4>News</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search for...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Cerca</button>
+                      </span>
+                    </div><!-- /input-group -->
+                 </p>
+            </div>
+        </div>
+    </footer>
+    <section style="text-align:center; margin:10px auto;"><p>Copyright © 2017 Centro Servizi Nazionale. All rights reserved.</p></section>
+
+</div>
+	<!----fine				 -->
+	
+	
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
+
